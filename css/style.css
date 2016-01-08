@@ -10,6 +10,7 @@
 */
 html {
 	/*no image showing..figure it out next had to link to css file*/
+	/*need to cover the whole page with this star background*/
 	background-image: url("../images/stars-background2.jpg");
 	background-size: cover;
 	background-position: center;
