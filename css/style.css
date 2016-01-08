@@ -8,7 +8,11 @@
 	2- #BEBEBE
 	1- #F4F4F4
 */
-body {
-	background: url("images/stars-background2");
-	backgorund-size: cover;
+html {
+	/*no image showing..figure it out next had to link to css file*/
+	background-image: url("../images/stars-background2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
 }
