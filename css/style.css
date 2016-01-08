@@ -1,0 +1,14 @@
+/*colors
+	red skull- #990000
+	white om- #FFFFFF
+	lotus- (black to white progressivly through grey shades light to dark)
+	black- #0D0D0D
+	4- #3F3F3F
+	3- #4E4E4E
+	2- #BEBEBE
+	1- #F4F4F4
+*/
+html {
+	background: url("../stars-background2");
+	backgorund-size: cover;
+}
