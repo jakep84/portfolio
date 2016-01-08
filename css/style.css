@@ -1,5 +1,6 @@
 /*colors
 	red skull- #990000
+	red skull & swords- #FF0000
 	white om- #FFFFFF
 	lotus- (black to white progressivly through grey shades light to dark)
 	black- #0D0D0D
@@ -15,10 +16,19 @@ html {
 	background-size: cover;
 	background-position: absolute;
 	background-repeat: no-repeat;
-	color: #990000;
+	/*color: #FF0000;*/
 
 }
+body > .asj {
+	text-align: left;
+	font-size: 2em;
+	color:#622949;
+}
+body > .om {
+	text-align: right;
+}
 body {
+	color: #8A0000;
 	text-align: center;
 }
 /*.skull {*/
