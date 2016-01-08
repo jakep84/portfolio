@@ -13,7 +13,21 @@ html {
 	/*need to cover the whole page with this star background*/
 	background-image: url("../images/stars-background2.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: absolute;
 	background-repeat: no-repeat;
+	color: #990000;
 
+}
+body {
+	text-align: center;
+}
+/*.skull {*/
+	position:absolute;
+	margin: auto 0;
+	left: 50%;
+	top: 50%;
+/*	width: ;
+	height: ;
+	margin-top: ; <--half the height
+	margin-left: ;<--half the width */
 }
