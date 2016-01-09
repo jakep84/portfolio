@@ -1,13 +1,16 @@
-/*colors
-	red skull- #990000
-	red skull & swords- #FF0000
-	white om- #FFFFFF
-	lotus- (black to white progressivly through grey shades light to dark)
-	black- #0D0D0D
-	4- #3F3F3F
-	3- #4E4E4E
-	2- #BEBEBE
-	1- #F4F4F4
+/*ASJ colors:
+purples (dark to light)- 
+#662949
+#84E62
+#834262
+aqua blue (dark to light)-
+#57A3BD
+#5EBSC4
+JMP colors:
+red-
+#8A0707
+black-
+#000000
 */
 html {
 	/*no image showing..figure it out next had to link to css file*/
@@ -34,42 +37,13 @@ body {
 .quote {
 	postion:absolute;
 	bottom: 5px;
+}
+/*slide menu commented out by Jacquie*/
+/*//@import "compass/css3";*/
 
-/*slide out menu*/
-
-/*.page-content{
-	position: relative;
-	z-index:0;
-}
-.sidebar:checked {
-
-}
-.sidebar {
-	position:(fixed, 0px 0 0px 0px);
-	width: 120px;
-	padding: 30px;
-	background:#333;
-	z-index:0;
-	left: 0px;
-	bottom: 0px;
-}
-.sidebar > li {
-	font-color: rgba(255,255,255,0.8);
-	font-family:  'Dancing Script', cursive;;
-	font-size: 16px;
-	margin-bottom: 16px;
-	-webkit-font-smoothing: antialiased;
-	cursor: pointer;
-}
- li:hover {
-	color:rgba(255,255,255,255,1);
-}
-*/
-@import "compass/css3";
-
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+/*@import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
+*/
 * {
  margin: 0;
  padding: 0;
@@ -78,7 +52,7 @@ list-style: none;
 
 html,
 body {
- font-family: "Arial", sans-serif;
+ font-family: 'Dancing Script', cursive;
  position: relative;
  width: 100%;
  height: 100%;
@@ -87,19 +61,19 @@ body {
  overflow-x: hidden;
  background: #000;
 }
-
-.menu-toggle {
- display: none; 
-}
 /*
+// .menu-toggle {
+//  display: none; 
+// }
+*/
 p {
  margin: 0 0 1em 0; 
  padding: 1em;
- font-family: "Open Sans";
+ font-family: 'Dancing Script', cursive;
 }
 
 h1, h2, h3, h4, h5 {
- font-family: "Oswald", sans-serif;
+ font-family: 'Dancing Script', cursive;
   text-transform: uppercase;
   color: #c10000;
 }
@@ -113,7 +87,7 @@ h2 {
   text-align: center;
   padding: .5em;
 }
-*/
+
 a {
  text-decoration: none; 
 }
@@ -160,7 +134,7 @@ nav {
     margin-top: -17px;
     left: 15px;
     color: #fff;
-    background: #c10000;
+    background: #c18888;
     font-size: 2em;
     text-align: center;
     border-radius: 50px;
@@ -172,19 +146,19 @@ nav {
   
 }
 
-#menu-toggle:checked ~ .nav {
+#menu-toggle:checked ~ #content {
   left: 50%;
-  -webkit-transition: all 0.1s ease-in-out;
-  opacity: 0.8;
+/*  // -webkit-transition: all 0.1s ease-in-out;
+  // opacity: 0.8;
+*/
 }
-
 /***********UNORDERED LIST***************/
 
 nav ul {
    position: absolute;
    
   li {
-      font-family: "Oswald", sans-serif; 
+      font-family: 'Dancing Script', cursive; 
       font-weight: bold;
    height: 50px;
    background: green;
@@ -198,122 +172,125 @@ nav ul {
 
 
  #menu-toggle:checked ~ nav ul li {
-   -webkit-animation: menu 1s;
-   -webkit-animation-fill-mode: forwards;
-   -moz-animation: menu 1s; 
-   -moz-animation-fill-mode: forwards; 
-   -ms-animation: menu 1s; 
-   -ms-animation-fill-mode: forwards; 
-   animation: menu 1s; /* Safari and Chrome */
-   animation-fill-mode: forwards; 
-   opacity: 0;
+   display:block;
+/*  // -webkit-animation: menu 1s;
+   // -webkit-animation-fill-mode: forwards;
+   // -moz-animation: menu 1s; 
+   // -moz-animation-fill-mode: forwards; 
+   // -ms-animation: menu 1s; 
+   // -ms-animation-fill-mode: forwards; 
+   // animation: menu 1s; /* Safari and Chrome */
+/*   // animation-fill-mode: forwards; 
+   // opacity: 0;
+*/
 }
 
 nav ul li:hover {
    cursor: pointer;
   }
   
-  
-nav ul li:before {
-    display: block;
-    height: 50px;
-    width: 50px;
-    content: '>';
-    font-size: 2em;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-right: rgba(255,255,255,0.2) 1px solid;
-    text-align: center;
-    color: #c10000;
-    z-index: 200;
-    line-height: 1.3em;
-  }
+/* 
+// nav ul li:before {
+//     display: block;
+//     height: 50px;
+//     width: 50px;
+//     content: '>';
+//     font-size: 2em;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     border-right: rgba(255,255,255,0.2) 1px solid;
+//     text-align: center;
+//     color: #c10000;
+//     z-index: 200;
+//     line-height: 1.3em;
+//   }
     
   
- nav li a {
-     color: #c10000;
-     background: #fff;
-     display: block;
-     height: 50px;
-     padding: 0 2em 0 70px;
-     z-index: 100;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-size: 18px;
-     line-height: 2.8em;
-     position: absolute;
-     top: 0;
-     left: 0;
-     overflow: hidden;
-     -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-     -ms-transition: all 0.1s ease-in-out;
-     transition: all 0.1s ease-in-out;
-}
+//  nav li a {
+//      color: #c10000;
+//      background: #fff;
+//      display: block;
+//      height: 50px;
+//      padding: 0 2em 0 70px;
+//      z-index: 100;
+//      text-decoration: none;
+//      text-transform: uppercase;
+//      font-size: 18px;
+//      line-height: 2.8em;
+//      position: absolute;
+//      top: 0;
+//      left: 0;
+//      overflow: hidden;
+//      -webkit-transition: all 0.1s ease-in-out;
+//      -moz-transition: all 0.1s ease-in-out;
+//      -ms-transition: all 0.1s ease-in-out;
+//      transition: all 0.1s ease-in-out;
+// }
 
 
- nav li a:hover {
-   opacity: 1.0;
-   padding-right: 3.0em;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
+//  nav li a:hover {
+//    opacity: 1.0;
+//    padding-right: 3.0em;
+//   -webkit-transition: all 0.1s ease-in-out;
+//   -moz-transition: all 0.1s ease-in-out;
+//   -ms-transition: all 0.1s ease-in-out;
+//   transition: all 0.1s ease-in-out;
+// }
 
- #menu-toggle:checked ~ nav ul li:nth-child(2) {
-   -webkit-animation-delay: 0.2s;
-   -moz-animation-delay: 0.2s;
-   -ms-animation-delay: 0.2s;
-   animation-delay: 0.2s;
-}
+//  #menu-toggle:checked ~ nav ul li:nth-child(2) {
+//    -webkit-animation-delay: 0.2s;
+//    -moz-animation-delay: 0.2s;
+//    -ms-animation-delay: 0.2s;
+//    animation-delay: 0.2s;
+// }
 
- #menu-toggle:checked ~ nav ul li:nth-child(3) {
-   -webkit-animation-delay: 0.4s; 
-   -moz-animation-delay: 0.4s;
-   -ms-animation-delay: 0.4s;
-   animation-delay: 0.4s;
-}
+//  #menu-toggle:checked ~ nav ul li:nth-child(3) {
+//    -webkit-animation-delay: 0.4s; 
+//    -moz-animation-delay: 0.4s;
+//    -ms-animation-delay: 0.4s;
+//    animation-delay: 0.4s;
+// }
 
- #menu-toggle:checked ~ nav ul li:nth-child(4) {
-   -webkit-animation-delay: 0.6s;
-   -moz-animation-delay: 0.6s; 
-   -ms-animation-delay: 0.6s; 
-   animation-delay: 0.6s; 
-}
+//  #menu-toggle:checked ~ nav ul li:nth-child(4) {
+//    -webkit-animation-delay: 0.6s;
+//    -moz-animation-delay: 0.6s; 
+//    -ms-animation-delay: 0.6s; 
+//    animation-delay: 0.6s; 
+// }
 
- #menu-toggle:checked ~ nav ul li:nth-child(5) {
-   -webkit-animation-delay: 0.8s;
-   -moz-animation-delay: 0.8s;
-   -ms-animation-delay: 0.8s;
-   animation-delay: 0.8s;
-}
+//  #menu-toggle:checked ~ nav ul li:nth-child(5) {
+//    -webkit-animation-delay: 0.8s;
+//    -moz-animation-delay: 0.8s;
+//    -ms-animation-delay: 0.8s;
+//    animation-delay: 0.8s;
+// }
 
-@-webkit-keyframes menu {
-  0%   {opacity: 0;}
-  25%  {opacity: 0.7;}
-  50%  {opacity: 1;}
-  100% {opacity: 1;}
-}
+// @-webkit-keyframes menu {
+//   0%   {opacity: 0;}
+//   25%  {opacity: 0.7;}
+//   50%  {opacity: 1;}
+//   100% {opacity: 1;}
+// }
 
-@-moz-keyframes menu {
-  0%   {opacity: 0;}
-  25%  {opacity: 0.7;}
-  50%  {opacity: 1;}
-  100% {opacity: 1;}
-}
+// @-moz-keyframes menu {
+//   0%   {opacity: 0;}
+//   25%  {opacity: 0.7;}
+//   50%  {opacity: 1;}
+//   100% {opacity: 1;}
+// }
 
-@-ms-keyframes menu {
-  0%   {opacity: 0;}
-  25%  {opacity: 0.7;}
-  50%  {opacity: 1;}
-  100% {opacity: 1;}
-}
+// @-ms-keyframes menu {
+//   0%   {opacity: 0;}
+//   25%  {opacity: 0.7;}
+//   50%  {opacity: 1;}
+//   100% {opacity: 1;}
+// }
 
-@keyframes menu {
-  0%   {opacity: 0;}
-  25%  {opacity: 0.7;}
-  50%  {opacity: 1;}
-  100% {opacity: 1;}
-}
+// @keyframes menu {
+//   0%   {opacity: 0;}
+//   25%  {opacity: 0.7;}
+//   50%  {opacity: 1;}
+//   100% {opacity: 1;}
+// }
+*/
