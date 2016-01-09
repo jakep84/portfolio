@@ -35,7 +35,7 @@ body {
 	postion:absolute;
 	bottom: 5px;
 
-/*slide out menu*/
+/*slide out menu using bourbon*/
 @import 'bourbon';
 
 .page-content{
@@ -43,7 +43,7 @@ body {
 	z-index:0;
 }
 .sidebar {
-	position:(fixed, 0px 0 0px 0px);
+	+position:(fixed, 0px 0 0px 0px);
 	width: 120px;
 	padding: 30px;
 	background:#333;
@@ -59,6 +59,6 @@ li {
 	-webkit-font-smoothing: antialiased;
 	cursor: pointer;
 }
-&hover {
+ li:hover {
 	color:rgba(255,255,255,255,1);
 }
