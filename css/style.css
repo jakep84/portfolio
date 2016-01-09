@@ -35,18 +35,17 @@ body {
 	postion:absolute;
 	bottom: 5px;
 
-/*slide out menu using bourbon*/
-@import 'bourbon';
+/*slide out menu*/
 
 .page-content{
 	position: relative;
 	z-index:0;
 }
 .sidebar:checked {
-	
+
 }
 .sidebar {
-	+position:(fixed, 0px 0 0px 0px);
+	position:(fixed, 0px 0 0px 0px);
 	width: 120px;
 	padding: 30px;
 	background:#333;
@@ -55,7 +54,7 @@ body {
 	bottom: 0px;
 }
 .sidebar > li {
-	color: rgba(255,255,255,0.8);
+	font-color: rgba(255,255,255,0.8);
 	font-family:  'Dancing Script', cursive;;
 	font-size: 16px;
 	margin-bottom: 16px;
