@@ -12,12 +12,11 @@
 html {
 	/*no image showing..figure it out next had to link to css file*/
 	/*need to cover the whole page with this star background*/
-	background-image: url("../images/stars-background2.jpg");
+	font-family: 'Dancing Script', cursive;
+	background-image: url("../images/hidden-beach.jpg");
 	background-size: cover;
 	background-position: absolute;
 	background-repeat: no-repeat;
-	/*color: #FF0000;*/
-
 }
 body > .asj {
 	text-align: left;
@@ -28,16 +27,72 @@ body > .om {
 	text-align: right;
 }
 body {
-	color: #8A0000;
+	color: #FFFFFF;
 	text-align: center;
+	text-shadow: 0em 0em 1em #662949 ;
 }
-/*.skull {*/
-	position:absolute;
-	margin: auto 0;
-	left: 50%;
-	top: 50%;
-/*	width: ;
-	height: ;
-	margin-top: ; <--half the height
-	margin-left: ;<--half the width */
+.title {
+	padding-top: 0;
+}
+.quote {
+	postion:absolute;
+	bottom: 5px;
+}
+/*slide out menu*/
+
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.toggle {
+  color: #333;
+  cursor: pointer;
+  font-size: 2em;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.side-nav {
+  background-color: #34495e;
+  border-right: 1px solid #34495e;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: -231px;
+  width: 210px;
+  height: 100%;
+  padding: 10px;
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    a {
+      padding: 10px 20px;
+      display: block;
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      
+      &:hover {
+          color: rgba(255, 255, 255, 1);
+          font-weight: bold;
+      }
+    }
+  }
+}
+
+.nav-open {
+  left: 231px;
+  
+  .side-nav {
+    left: 0;
+  }
+}
+
+.wrapper, .side-nav {
+  transition: left .2s ease;
 }
