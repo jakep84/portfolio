@@ -18,18 +18,14 @@ html {
 	background-position: absolute;
 	background-repeat: no-repeat;
 }
-body > .asj {
-	text-align: left;
-	font-size: 2em;
-	color:#622949;
-}
-body > .om {
-	text-align: right;
-}
+@import url("http://fonts.googleapis.com/css?family=Lato");
 body {
 	color: #FFFFFF;
 	text-align: center;
 	text-shadow: 0em 0em 1em #662949 ;
+}
+.name {
+	font-size: 15em;
 }
 .title {
 	padding-top: 0;
