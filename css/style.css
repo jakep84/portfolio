@@ -133,9 +133,11 @@ nav {
     margin-top: -17px;
     left: 15px;
     color: #fff;
+    /*background color*/
     background: #c10000;
     font-size: 2em;
     text-align: center;
+    /*red circle*/
     border-radius: 50px;
   } 
   
