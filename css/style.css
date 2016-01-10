@@ -13,8 +13,6 @@ black-
 #000000
 */
 html {
-	/*no image showing..figure it out next had to link to css file*/
-	/*need to cover the whole page with this star background*/
 	font-family: 'Dancing Script', cursive;
 	background-image: url("../images/hidden-beach.jpg");
 	background-size: cover;
@@ -32,13 +30,14 @@ body {
 	font-size: 15em;
 }
 .title {
+	/*I may want this tighter to the top*/
 	padding-top: 0;
 }
 .quote {
 	postion:absolute;
 	bottom: 5px;
 }
-/*slide menu commented out by Jacquie*/
+/*slide menu (//)commented out by Jacquie*/
 /*//@import "compass/css3";*/
 
 /*@import url(http://fonts.googleapis.com/css?family=Oswald);
@@ -72,7 +71,7 @@ p {
  font-family: 'Dancing Script', cursive;
 }
 
-h1, h2, h3, h4, h5 {
+/*h1, h2, h3, h4, h5 {
  font-family: 'Dancing Script', cursive;
   text-transform: uppercase;
   color: #c10000;
@@ -87,7 +86,7 @@ h2 {
   text-align: center;
   padding: .5em;
 }
-
+*/
 a {
  text-decoration: none; 
 }
@@ -134,7 +133,7 @@ nav {
     margin-top: -17px;
     left: 15px;
     color: #fff;
-    background: #c18888;
+    background: #c10000;
     font-size: 2em;
     text-align: center;
     border-radius: 50px;
