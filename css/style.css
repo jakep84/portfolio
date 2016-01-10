@@ -123,30 +123,28 @@ nav {
 
 .top-bar {
   position: relative;
-   
-    label {
+  background-image: url("../images/hidden-beach.jpg");
+
+  } 
+  .top-bar > label {
     display: block;
     width: 34px;
     height: 34px;
     position: absolute;
     top: 50%;
     margin-top: -17px;
-    left: 15px;
-    color: #fff;
+    left: 60px;
+    color:#8A0707;
     /*background color*/
-    background: #c10000;
     font-size: 2em;
     text-align: center;
     /*red circle*/
     border-radius: 50px;
   } 
   
-  label:active {
- 
-  }
-  
-}
+ .top-bar >label:active {
 
+  }
 #menu-toggle:checked ~ #content {
   left: 50%;
 /*  // -webkit-transition: all 0.1s ease-in-out;
