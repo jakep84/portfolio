@@ -5,7 +5,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
 
 	<meta charset="UTF-8">
-	<title>Homepage</title>
+	<title>About Me</title>
 </head>
 <body>
 <input id="menu-toggle" class="menu-toggle" type="checkbox">
