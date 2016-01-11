@@ -129,8 +129,9 @@ nav {
 
 .top-bar {
   position: relative;
-  background-image: url("../images/hidden-beach.jpg");
-
+  background-color:green;
+/*  background-image: url("../images/hidden-beach.jpg");
+*/
   } 
   .top-bar > label {
     display: block;
