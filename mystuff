@@ -10,7 +10,6 @@
 <body>
 <input id="menu-toggle" class="menu-toggle" type="checkbox">
 <nav class="nav">
-
   <ul class="menu">
     <li><a href="http://jakep84.github.io/portfolio/">Home</a></li>
     <li><a href="http://jakep84.github.io/mystuff/">Portfolio</a></li>
