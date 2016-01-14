@@ -24,18 +24,20 @@ body {
 	text-shadow: 0em 0em 1em #8A0707 ;
 }
 .name, .title, .quote{
+	margin-top: center;
 	text-align:center;
 }
 .name {
-	font-size: 15em;
+	font-size: 5em;
 }
 .title {
 	/*I may want this tighter to the top*/
 	padding-top: 0;
+	font-size:2em;
 }
 .quote {
 	postion:absolute;
-	bottom: 5px;
+	bottom: 2em;
 }
 /*slide menu (//)commented out by Jacquie*/
 /*//@import "compass/css3";*/
@@ -48,7 +50,6 @@ body {
  padding: 0;
 list-style: none;
 }
-
 html,
 body {
  font-family: 'Dancing Script', cursive;
@@ -70,7 +71,6 @@ p {
  padding: 1em;
  font-family: 'Dancing Script', cursive;
 }
-
 /*h1, h2, h3, h4, h5 {
  font-family: 'Dancing Script', cursive;
   text-transform: uppercase;
@@ -92,7 +92,9 @@ a {
  color:#57A3BD; 
  font-size: 2em;
 }
-
+.menu > li > a:hover {
+	color: white;
+}
 nav {
   position: absolute;
   top: 0;
@@ -103,22 +105,20 @@ nav {
   /*distance menu slides*/
   width: 15%;
   height: 100%;
-  
-    ul {
+ } 
+ ul {
    list-style: none; 
     margin: 0;
     padding: 0;
-  }
-    
-}
-
-
+ }
 #content {
 	/*I want this background image to 
 	be full size, not more*/
    background-image: url("../images/hidden-beach.jpg");
    position: absolute;
-/* background-size: 50%; */
+   background-size: cover;
+   background-position: center; 
+   background-repeat:no-repeat;
    top: 0;
    left: 0; 
    width: 100%;
@@ -155,12 +155,11 @@ learning how to resize the image
     /*background color*/
     font-size: 2em;
     text-align: center;
-/*    red circle
+/*  red circle
     background-color:#000000;*/
     border-radius: 50px;
     cursor: pointer;
-  } 
-  
+  }  
  .top-bar >label:active {
 
   }
@@ -187,9 +186,6 @@ nav ul {
    margin: 5px 0;
   }
 }
-
-
-
  #menu-toggle:checked ~ nav ul li {
    display:block;
 /*  // -webkit-animation: menu 1s;
@@ -199,16 +195,20 @@ nav ul {
    // -ms-animation: menu 1s; 
    // -ms-animation-fill-mode: forwards; 
    // animation: menu 1s; /* Safari and Chrome */
-/*   // animation-fill-mode: forwards; 
+/* // animation-fill-mode: forwards; 
    // opacity: 0;
 */
 }
-
 nav ul li:hover {
    cursor: pointer;
    /*change color on hover??*/
    text-transition:#5EBSC4;
   }
+ #toggle {
+ 	cursor:pointer;
+ 	font-size:3em;
+ 	margin: .5em .5em; 
+ }
 /* 
 // nav ul li:before {
 //     display: block;
@@ -225,8 +225,6 @@ nav ul li:hover {
 //     z-index: 200;
 //     line-height: 1.3em;
 //   }
-    
-  
 //  nav li a {
 //      color: #c10000;
 //      background: #fff;
@@ -247,8 +245,6 @@ nav ul li:hover {
 //      -ms-transition: all 0.1s ease-in-out;
 //      transition: all 0.1s ease-in-out;
 // }
-
-
 //  nav li a:hover {
 //    opacity: 1.0;
 //    padding-right: 3.0em;
@@ -257,56 +253,48 @@ nav ul li:hover {
 //   -ms-transition: all 0.1s ease-in-out;
 //   transition: all 0.1s ease-in-out;
 // }
-
 //  #menu-toggle:checked ~ nav ul li:nth-child(2) {
 //    -webkit-animation-delay: 0.2s;
 //    -moz-animation-delay: 0.2s;
 //    -ms-animation-delay: 0.2s;
 //    animation-delay: 0.2s;
 // }
-
 //  #menu-toggle:checked ~ nav ul li:nth-child(3) {
 //    -webkit-animation-delay: 0.4s; 
 //    -moz-animation-delay: 0.4s;
 //    -ms-animation-delay: 0.4s;
 //    animation-delay: 0.4s;
 // }
-
 //  #menu-toggle:checked ~ nav ul li:nth-child(4) {
 //    -webkit-animation-delay: 0.6s;
 //    -moz-animation-delay: 0.6s; 
 //    -ms-animation-delay: 0.6s; 
 //    animation-delay: 0.6s; 
 // }
-
 //  #menu-toggle:checked ~ nav ul li:nth-child(5) {
 //    -webkit-animation-delay: 0.8s;
 //    -moz-animation-delay: 0.8s;
 //    -ms-animation-delay: 0.8s;
 //    animation-delay: 0.8s;
 // }
-
 // @-webkit-keyframes menu {
 //   0%   {opacity: 0;}
 //   25%  {opacity: 0.7;}
 //   50%  {opacity: 1;}
 //   100% {opacity: 1;}
 // }
-
 // @-moz-keyframes menu {
 //   0%   {opacity: 0;}
 //   25%  {opacity: 0.7;}
 //   50%  {opacity: 1;}
 //   100% {opacity: 1;}
 // }
-
 // @-ms-keyframes menu {
 //   0%   {opacity: 0;}
 //   25%  {opacity: 0.7;}
 //   50%  {opacity: 1;}
 //   100% {opacity: 1;}
 // }
-
 // @keyframes menu {
 //   0%   {opacity: 0;}
 //   25%  {opacity: 0.7;}
