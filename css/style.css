@@ -23,8 +23,6 @@ body {
 	color: #FFF;
 	text-shadow: 0em 0em 1em #8A0707 ;
 }
-/*still not vertically aligned center
-not sure what to do ugh*/
 .name, .title, .quote{
 	mar: center;
 	text-align:center;
@@ -34,7 +32,6 @@ not sure what to do ugh*/
 	padding-top:15%;
 }
 .title {
-	/*I may want this tighter to the top*/
 	padding-top: 0;
 	font-size:2em;
 }
