@@ -1,4 +1,4 @@
-/*ASJ colors:
+ASJ colors:
 purples (dark to light)- 
 #662949
 #84E62
@@ -20,15 +20,18 @@ html {
 	background-repeat: no-repeat;
 }
 body {
-	color: #FFFFFF;
+	color: #FFF;
 	text-shadow: 0em 0em 1em #8A0707 ;
 }
+/*still not vertically aligned center
+not sure what to do ugh*/
 .name, .title, .quote{
 	mar: center;
 	text-align:center;
 }
 .name {
 	font-size: 5em;
+	padding-top:15%;
 }
 .title {
 	/*I may want this tighter to the top*/
@@ -295,4 +298,3 @@ nav ul li:hover {
 //   50%  {opacity: 1;}
 //   100% {opacity: 1;}
 // }
-*/
