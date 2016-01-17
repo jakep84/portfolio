@@ -128,7 +128,6 @@ nav {
 /*  red circle
     background-color:#000000;*/
     border-radius: 50px;
-    cursor: pointer;
   }  
  .top-bar >label:active {
 
@@ -157,12 +156,13 @@ nav ul {
    display:block;
 }
 nav ul li:hover {
-   cursor: pointer;
+  /* cursor: pointer;*/
+  cursor: url('http://icons-search.com/img/icons-land/IconsLandVistaStyleEmoticonsDemo.zip/IconsLandVistaStyleEmoticonsDemo-ICO-Cool.ico-32x32.png'), auto;
    /*change color on hover??*/
    text-transition:#5EBSC4;
   }
  #toggle {
- 	cursor:pointer;
+  cursor: url(http://files.softicons.com/download/food-drinks-icons/summer-icons-by-klukeart/png/32x32/hamburger.png), auto;
  	font-size:3em;
  	margin: .5em .5em; 
  }
