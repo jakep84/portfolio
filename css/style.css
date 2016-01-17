@@ -1,4 +1,4 @@
-ASJ colors:
+/*ASJ colors:
 purples (dark to light)- 
 #662949
 #84E62
@@ -10,8 +10,10 @@ JMP colors:
 red-
 #8A0707
 black-
-#000000
-*/
+#000000*/
+/*  Change these for images/ screenshots of my pages */   
+/*Home/ about me/ contact/ need to be dropdown menu style from the top*/
+/* transition quote to about me on hover? that might be cool... */
 html {
 	font-family: 'Dancing Script', cursive;
 	background-image: url("../images/hidden-beach.jpg");
@@ -133,10 +135,7 @@ nav {
   }
 #menu-toggle:checked ~ #content {
 	/*distance background slides*/
-  left: 15%;
-/*  // -webkit-transition: all 0.1s ease-in-out;
-  // opacity: 0.8;
-*/
+  left:15%;
 }
 /***********UNORDERED LIST***************/
 
@@ -166,4 +165,24 @@ nav ul li:hover {
  	cursor:pointer;
  	font-size:3em;
  	margin: .5em .5em; 
+ }
+ .dropdown {
+  position: relative;
+  /*display:inline-block;*/
+  cursor: pointer;
+  postion:absolute;
+  bottom: 2em;
+  font-size:2em;
+  text-align:center;
+ }
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color:#f9f9f9;*/
+  min-width:160px;
+  padding: 13px 16px;
+  font-size: .75em;
+ }
+ .dropdown:hover .dropdown-content {
+  display: block;
  }
