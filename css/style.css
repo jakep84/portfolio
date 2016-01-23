@@ -163,7 +163,7 @@ nav ul li:hover {
    text-transition:#5EBSC4;
   }
  #toggle {
-  cursor: url(http://files.softicons.com/download/food-drinks-icons/summer-icons-by-klukeart/png/32x32/hamburger.png), auto;
+  cursor:pointer;
  	font-size:3em;
  	margin: .5em .5em; 
  }
