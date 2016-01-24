@@ -11,11 +11,20 @@ red-
 #8A0707
 black-
 #000000*/
-/*  Change these for images/ screenshots of my pages */   
+/*Change these for images/ screenshots of my pages */   
 /*Home/ about me/ contact/ need to be dropdown menu style from the top*/
-/* transition quote to about me on hover? that might be cool... */
+/*transition quote to about me on hover? that might be cool... */
+html,
+body {
+ font-family: 'Dancing Script', cursive;
+ position: relative;
+ width: 100%;
+ height: 100%;
+ padding: 0;
+ margin: 0;
+ overflow-x: hidden;
+}
 html {
-	font-family: 'Dancing Script', cursive;
 	background-image: url("../images/hidden-beach.jpg");
 	background-size: cover;
 	background-position: absolute;
@@ -26,7 +35,7 @@ body {
 	text-shadow: 0em 0em 1em #8A0707;
   cursor:default;
 }
-.name, .title, .quote{
+.name, .title, .quote {
 	mar: center;
 	text-align:center;
 }
@@ -42,24 +51,12 @@ body {
 	postion:absolute;
 	bottom: 2em;
 	font-size:2em;
-
 }
 * {
  margin: 0;
  padding: 0;
  list-style: none;
  box-sizing: border-box;
-}
-html,
-body {
- font-family: 'Dancing Script', cursive;
- position: relative;
- width: 100%;
- height: 100%;
- padding: 0;
- margin: 0;
- overflow-x: hidden;
- background: #000;
 }
 p {
  margin: 0 0 1em 0; 
@@ -91,7 +88,7 @@ nav {
     padding: 0;
     font-family: 'Satisfy', cursive;
  }
- #body {
+#body {
  	position:relative;
  }
 #content {
@@ -132,7 +129,6 @@ nav {
     border-radius: 50px;
   }  
  .top-bar >label:active {
-
   }
 #menu-toggle:checked ~ #content {
 	/*distance background slides*/
@@ -144,8 +140,8 @@ nav ul {
    position: absolute;
    
   li {
-      font-family: 'Dancing Script', cursive; 
-      font-weight: bold;
+   font-family: 'Dancing Script', cursive; 
+   font-weight: bold;
    height: 50px;
    background: green;
    display: block;
