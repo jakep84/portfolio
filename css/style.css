@@ -167,7 +167,7 @@ nav ul li:hover {
  	font-size:2em;
  	margin: .5em .5em; 
  }
- #toggle-contact{
+ .contact-dropdown {
   cursor:pointer;
   font-size:2em;
   margin: .5em .5em; 
@@ -193,3 +193,13 @@ nav ul li:hover {
   display: block;
   cursor:url("../images/its-your.png"), auto;
  }
+ .contact-dropdown:hover .contact-dropdown-content {
+  display: block;
+ }
+.contact-dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 13px 16px;
+  font-size: .75em;
+}
