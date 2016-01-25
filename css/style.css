@@ -166,6 +166,7 @@ nav ul li:hover {
   cursor:pointer;
  	font-size:2em;
  	margin: .5em .5em; 
+  top: -1em;
  }
  .contact-dropdown {
   cursor:pointer;
