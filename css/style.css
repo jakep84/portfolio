@@ -36,7 +36,7 @@ body {
   cursor:default;
 }
 .name, .title, .quote {
-	mar: center;
+	margin: center;
 	text-align:center;
 }
 .name {
@@ -160,12 +160,18 @@ nav ul {
 nav ul li:hover {
   cursor: pointer;
    /*change color on hover??*/
-   text-transition:#5EBSC4;
+   text-transition:#5EB5C4;
   }
  #toggle {
   cursor:pointer;
  	font-size:2em;
  	margin: .5em .5em; 
+ }
+ #toggle-contact{
+  cursor:pointer;
+  font-size:2em;
+  margin: .5em .5em; 
+  float:right;
  }
  .dropdown {
   position: relative;
