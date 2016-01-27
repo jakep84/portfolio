@@ -140,7 +140,9 @@ nav {
   left:15%;
 }
 /***********UNORDERED LIST***************/
-
+nav {
+  background-color: #57A3BD;
+}
 nav ul {
    position: absolute;
    
