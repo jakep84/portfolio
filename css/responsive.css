@@ -1,6 +1,12 @@
-@media  only screen (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	.name { 
 		font-size: 3em;
+	    }
+	.dropdown {
+		font-size: 1em;
+	}
+	.dropdown-content {
+		display: show;
 	}
 
 }
