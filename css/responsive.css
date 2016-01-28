@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
 	.name { 
 		font-size: 3em;
 	    }
@@ -6,7 +6,12 @@
 		font-size: 1em;
 	}
 	.dropdown-content {
-		display: show;
+		display: block;
 	}
-
-}
+	.contact-dropdown {
+		display:none;
+	}
+	.contact-dropdown-content {
+		display: inline-block;
+	}
+}*/
