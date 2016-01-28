@@ -76,7 +76,7 @@ nav {
   top: 0;
   left: 0;
   height: 100%;
-  background: ##57A3BD
+  background: #0072AC
 ;
   z-index: 0;
   /*distance menu slides*/
@@ -140,9 +140,6 @@ nav {
   left:15%;
 }
 /***********UNORDERED LIST***************/
-nav {
-  background-color: #57A3BD;
-}
 nav ul {
    position: absolute;
    
