@@ -71,7 +71,7 @@ a {
  font-size: 2em;
 }
 .menu > li > a:hover {
-	color: white;
+	   background:#0072AC;
 }
 nav {
   position: absolute;
@@ -190,10 +190,8 @@ nav ul li:hover {
   min-width:160px;
   padding: 13px 16px;
   font-size: .75em;
+  display:none;
 }
-  .fa-code {
-    display:none;
-  }
  .dropdown:hover .dropdown-content {
   display: block;
   cursor:url("../images/its-your.png"), auto;
@@ -204,9 +202,9 @@ nav ul li:hover {
 .contact-dropdown-content {
   display: none;
   position: absolute;
-  min-width: 260px;
-  padding: 13px 16px;
+  min-width: 20px;
   font-size: .75em;
+  float:left;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
