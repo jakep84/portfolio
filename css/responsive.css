@@ -1,17 +1,11 @@
-/*@media only screen and (max-width: 500px) {
-	.name { 
-		font-size: 3em;
+@media only screen and (max-width: 500px) {
+   .name { 
+		font-size: 5em;
 	    }
-	.dropdown {
-		font-size: 1em;
+	.title {
+		font-size:.75em;
 	}
-	.dropdown-content {
-		display: block;
+	.quote {
+		font-size: .05em;
 	}
-	.contact-dropdown {
-		display:none;
-	}
-	.contact-dropdown-content {
-		display: inline-block;
-	}
-}*/
+}

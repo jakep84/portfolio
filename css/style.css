@@ -34,6 +34,17 @@ body {
 	text-shadow: 0em 0em 1em #8A0707;
   cursor:default;
 }
+@media only screen and (max-width: 500px) {
+   .name { 
+    font-size: 3em;
+      }
+  .title {
+    font-size: 1em;
+  }
+  .quote {
+    font-size: .25em;
+  }
+}
 .name, .title, .quote {
 	margin: center;
 	text-align:center;
@@ -134,7 +145,7 @@ nav {
     background-color:#000000;*/
     border-radius: 50px;
   }  
- .top-bar >label:active {
+ .top-bar > label:active {
   }
 #menu-toggle:checked ~ #content {
 	/*distance background slides*/
