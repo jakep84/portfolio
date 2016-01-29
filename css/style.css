@@ -140,7 +140,6 @@ nav {
 	/*distance background slides*/
   left:15%;
 }
-/***********UNORDERED LIST***************/
 nav ul {
 
    position: absolute;
@@ -186,24 +185,26 @@ nav ul li:hover {
  }
  .dropdown-content {
   font-family: 'Forum', cursive;
-  display: none;
   position: absolute;
   /*background-color:#f9f9f9;*/
   min-width:160px;
   padding: 13px 16px;
   font-size: .75em;
 }
+  .fa-code {
+    display:none;
+  }
  .dropdown:hover .dropdown-content {
   display: block;
   cursor:url("../images/its-your.png"), auto;
  }
  .contact-dropdown:hover .contact-dropdown-content {
-  display: block;
+  display: inline;
  }
 .contact-dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 260px;
   padding: 13px 16px;
   font-size: .75em;
 }
