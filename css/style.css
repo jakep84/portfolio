@@ -34,17 +34,6 @@ body {
 	text-shadow: 0em 0em 1em #8A0707;
   cursor:default;
 }
-@media only screen and (max-width: 500px) {
-   .name { 
-    font-size: 3em;
-      }
-  .title {
-    font-size: 1em;
-  }
-  .quote {
-    font-size: .5em;
-  }
-}
 .name, .title, .quote {
 	margin: center;
 	text-align:center;
@@ -122,6 +111,12 @@ nav {
    height: 100%;
    -webkit-transition: all 0.1s ease-in-out;
    box-shadow: rgba(0,0,0,0.5) -5px 0 20px;
+}
+#topline-left {
+  margin: 30px 15px 15px 15px;
+}
+#topline-right {
+  margin:15px 15px 15px 15px;
 }
 .top-bar {
   position: relative;
