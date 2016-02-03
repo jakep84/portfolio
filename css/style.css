@@ -30,7 +30,7 @@ html {
 	background-repeat: no-repeat;
 }
 body {
-	color: #000;
+	color: #FEF5FF;
 	text-shadow: 0em 0em 1em #8A0707;
   cursor:default;
 }
@@ -70,7 +70,7 @@ a {
  color:#57A3BD; 
  font-size: 2em;
 }
-.menu > li > a:hover {
+.menu > li:hover {
 	   background:#0072AC;
 }
 nav {
