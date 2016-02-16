@@ -8,10 +8,10 @@ body {
  overflow-x: hidden;
 }
 html {
-	background-image: url("../images/hidden-beach.jpg");
+/*	background-image: url("../images/hidden-beach.jpg");
 	background-size: cover;
 	background-position: absolute;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 body {
 	color: #FEF5FF;
@@ -57,16 +57,16 @@ a {
 .menu > li:hover {
 	   background:#0072AC;
 }
-nav {
-  position: absolute;
+.nav {
+ /* position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   background: #771077;
   z-index: 0;
-  /*distance menu slides*/
-  width: 15%;
-  height: 100%;
+  height: 100% 
+  width: 76%;*/;
+  background-color:#771077;
+  height: 780%;
  } 
  ul {
    list-style: none; 
@@ -83,7 +83,7 @@ nav {
  }
 #content {
    background-image: url("../images/hidden-beach.jpg");
-   position: absolute;
+   position: fixed;
    background-size: cover;
    background-position: center; 
    background-repeat:no-repeat;
@@ -115,7 +115,7 @@ nav {
     top: 10%;
     margin-top: -17px;
     /*distance from the left*/
-    left: 25px;
+    left: 76%;
     color:#fff;
     /*background color*/
     font-size: 2em;
@@ -128,9 +128,12 @@ nav {
   }
 #menu-toggle:checked ~ #content {
 	/*distance background slides*/
-  left:15%;
+  left:76%;
 }
-nav ul {
+#menu-toggle {
+  display: none;
+}
+.nav ul {
 
    position: absolute;
    
@@ -145,10 +148,10 @@ nav ul {
    margin: 5px 0;
   }
 }
- #menu-toggle:checked ~ nav ul li {
+ #menu-toggle:checked ~ .nav ul li {
    display:block;
 }
-nav ul li:hover {
+.nav ul li:hover {
   cursor: pointer;
    /*change color on hover??*/
    text-transition:#5EB5C4;
