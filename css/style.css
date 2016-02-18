@@ -154,7 +154,7 @@ a {
 .nav ul li:hover {
   cursor: pointer;
    /*change color on hover??*/
-   text-transition:#5EB5C4;
+   text-transition:black;
   }
  #toggle {
   cursor:pointer;
