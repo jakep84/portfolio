@@ -51,11 +51,12 @@ p {
 }
 a {
  text-decoration: none;
- color:#57A3BD; 
- font-size: 2em;
+/* background:#000000; 
+*/ color:#57A3BD;
+font-size: 2em;
 }
 .menu > li:hover {
-	   background:#0072AC;
+	   background:black;
 }
 .nav {
  /* position: absolute;
