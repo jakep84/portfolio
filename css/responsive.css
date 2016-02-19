@@ -13,3 +13,8 @@
 		left: 76%;
 	}
 };
+@media screen and (max-heigth: 650px;){
+	.nav {
+	heigth: 126%;
+	}
+};
