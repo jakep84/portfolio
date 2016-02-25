@@ -191,7 +191,7 @@ font-size: 2em;
   cursor:url("../images/its-your.png"), auto;
  }
  .contact-dropdown:hover .contact-dropdown-content {
-  display: inline;
+  display: block;
  }
 .contact-dropdown-content {
   display: none;
